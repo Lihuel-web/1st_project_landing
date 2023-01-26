@@ -1,0 +1,75 @@
+* {
+margin: 0;
+padding: 0;
+font-weight: inherit;
+font-style: inherit;
+text-decoration: none;
+}
+
+header {
+display: flex;
+border: 1px solid aqua;
+background-color: #1F2937;
+padding-top: 0.5em;
+padding-left: 3em;
+padding-right: 3em;
+justify-content: space-between;
+}
+
+h1 {
+font-size: 24px;
+font-weight: bolder;
+color: #F9FAF8;
+}
+nav {
+display: flex;
+width: 45vw;
+align-items:flex-end;
+justify-content: space-between;
+border: 1px solid rgb(0, 255, 30);
+}
+a .secondary_text{
+font-size: 18px;
+color: #E5E7EB;
+}
+
+main {
+border: 1px solid rgb(13, 0, 255);
+background-color: #1F2937;
+display: flex;
+}
+
+.main_text {
+border: 1px solid rgb(187, 0, 255);
+}
+h2 {
+font-size: 48px;
+color: #F9FAF8;
+}
+.first_img {
+width: 16em;
+}
+
+.random_info {
+border: 1px solid rgb(255, 230, 0);
+}
+
+.random_imgs {
+border: 1px solid rgb(0, 255, 191);
+}
+
+.quotation {
+border: 1px solid rgb(106, 255, 0);
+}
+
+.sign_up_footer {
+border: 1px solid rgb(204, 0, 255);
+}
+
+.sign_up_footer_text {
+border: 1px solid rgb(255, 106, 0);
+}
+
+footer {
+border: 1px solid rgb(0, 42, 255);
+}
