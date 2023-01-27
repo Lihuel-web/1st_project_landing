@@ -63,7 +63,9 @@ color:#E5E7EB;
 max-height: 17em;
 }
 
-.random_info {
+.random_info { /*imágenes con wrap*/
+    padding-left: 3em;
+    padding-right: 3em;
 display: flex;
 color: #1F2937;
 border: 1px solid rgb(255, 230, 0);
@@ -82,6 +84,7 @@ border: 1px solid rgb(0, 255, 191);
 justify-content: center;
 flex-wrap: wrap;
 gap: 2em;
+padding-bottom: 3em;
 
 }
 figure img {
@@ -94,16 +97,32 @@ max-width: 10em;
 text-align: center;
 }
 .quotation {
-border: 1px solid rgb(106, 255, 0);
-color: #1F2937;
-background-color: #E5E7EB;
-padding: 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(106, 255, 0);
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 5em 3em 5em 3em;
 }
 blockquote {
     font-size: 36px;
+    font-style: italic;
+}
+.cita {
+    border: 1px solid rgb(255, 0, 38);
+    align-self: flex-end;
+    max-width: fit-content;
+    font-weight: bolder;
 }
 .sign_up_footer {
-border: 1px solid rgb(204, 0, 255);
+    margin: 5em 3em 5em 3em;
+    padding: 2em 5em 2em 5em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(204, 0, 255);
+    background-color: #3882F6;
+    color:#F9FAF8
 }
 
 .sign_up_footer_text {
