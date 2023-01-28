@@ -4,11 +4,11 @@ padding: 0;
 font-weight: inherit;
 font-style: inherit;
 text-decoration: none;
+font-family:'Roboto', sans-serif;
 }
 
 header {
 display: flex;
-border: 1px solid aqua;
 background-color: #1F2937;
 padding-top: 0.5em;
 padding-left: 11em;
@@ -23,10 +23,9 @@ color: #F9FAF8;
 }
 nav {
     display: flex;
-    width: 45vw;
+    width: 40vw;
     align-items:flex-end;
     justify-content: space-between;
-    border: 1px solid rgb(0, 255, 30);
 }
 a, .secondary_text{ /*la coma se usa para elegir dos clases diferentes*/
     font-size: 18px;
@@ -38,7 +37,6 @@ main {
     padding-right: 11em;
     padding-top: 5em;
     padding-bottom: 5em;
-    border: 1px solid rgb(13, 0, 255);
     background-color: #1F2937;
     display: flex;
     flex: 1;
@@ -46,10 +44,11 @@ main {
 }
 
 .main_text {
-    border: 1px solid rgb(187, 0, 255);
+    max-width: 20em;
 }
-h2 {
+.awesome_header {
     font-size: 48px;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 .secondary_text {
@@ -61,8 +60,9 @@ border-radius: 5px;
 border: none;
 padding: 6px 25px 6px 25px;
 color:#E5E7EB;
-font-weight: bold;
+font-weight: bolder;
 }
+
 .first_img {
 max-height: 13em;
 }
@@ -72,7 +72,6 @@ max-height: 13em;
     padding-right: 11em;
 display: flex;
 color: #1F2937;
-border: 1px solid rgb(255, 230, 0);
 flex-direction: column;
 align-items: center;
 }
@@ -84,7 +83,6 @@ padding: 1em 0 1em;
 }
 .random_imgs {
 display: flex;
-border: 1px solid rgb(0, 255, 191);
 justify-content: center;
 flex-wrap: wrap;
 gap: 2em;
@@ -103,7 +101,6 @@ text-align: center;
 .quotation {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(106, 255, 0);
     color: #1F2937;
     background-color: #E5E7EB;
     padding: 5em 11em 5em 11em;
@@ -113,10 +110,9 @@ blockquote {
     font-style: italic;
 }
 .cita {
-    border: 1px solid rgb(255, 0, 38);
     align-self: flex-end;
     max-width: fit-content;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 .sign_up_footer {
     margin: 5em 11em 5em 11em;
@@ -124,13 +120,12 @@ blockquote {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(204, 0, 255);
     background-color: #3882F6;
     color:#F9FAF8
 }
 
-.sign_up_footer_text {
-border: 1px solid rgb(255, 106, 0);
+h3 {
+    font-weight: bolder;
 }
 .second_button {
     border-radius: 10px;
@@ -138,7 +133,7 @@ border: 1px solid rgb(255, 106, 0);
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 0 30px 0 30px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 footer {
 display: flex;
@@ -147,5 +142,5 @@ display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 2em 0 2em;
-
+    font-weight: bolder;
 }
